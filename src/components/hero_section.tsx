@@ -17,9 +17,7 @@ const HeroSection = () => {
           ></Image>
         </div>
         <div className="flex flex-col items-center md:items-baseline justify-center md:w-3/5">
-          <h1 className="text-3xl md:text-7xl font-bold">
-            Hi, I&apos;m Luay
-          </h1>
+          <h1 className="text-3xl md:text-7xl font-bold">Hi, I&apos;m Luay</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl text-center md:text-justify">
             I&apos;m a{" "}
             <span className="font-bold text-cyan-600">Computer programmer</span>{" "}
@@ -36,7 +34,7 @@ const HeroSection = () => {
       </div>
       <div className="flex items-center justify-center">
         <Link href={""}>
-          <HiArrowDown size={40} />
+          <HiArrowDown className="animate-bounce" size={40} />
         </Link>
       </div>
     </section>
