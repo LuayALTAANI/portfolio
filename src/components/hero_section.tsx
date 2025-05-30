@@ -17,7 +17,7 @@ const HeroSection = () => {
           ></Image>
         </div>
         <div className="flex flex-col items-center md:items-baseline justify-center md:w-3/5">
-          <h1 className="text-3xl md:text-7xl font-bold text-black">
+          <h1 className="text-3xl md:text-7xl font-bold">
             Hi, I&apos;m Luay
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl text-center md:text-justify">
