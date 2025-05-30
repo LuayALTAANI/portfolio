@@ -47,13 +47,13 @@ const Navbar = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex justify-self-center md:item-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
-            <nav className="md:flex md:space-x-6 md:items-center sm:text-center">
+            <nav className="md:flex md:space-x-6 md:items-center text-center">
               {NavbarProb.map((item, i) => (
-                <div key={i} className="text-center sm:p-1 sm:m-1">
+                <div key={i} className="text-center p-1 m-1">
                   <Link href={item.page}>{item.label}</Link>
                 </div>
               ))}
